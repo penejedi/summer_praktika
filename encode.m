@@ -1,6 +1,6 @@
 % Функция, которая преобразует исходную фразу в двоичное информационное
 % слово
-function D = sumprac3(A)
+function D = encode(A)
 C=0;
 for i=1:length(A)
     if A(i)=='а'
